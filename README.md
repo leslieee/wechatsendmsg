@@ -1,5 +1,6 @@
 # wechatsendmsg
-自己搞一个类似server酱企业微信通道, php版本, 仅一个文件, 放到网站根目录然后请求接口就可以发送消息
+自己搞一个类似server酱企业微信通道, php版本, 仅一个文件, 放到网站根目录然后请求接口就可以发送消息  
+兼容server酱接口只需要把原有https://sc.ftqq.com/xxx.send改为http://example.com/wechatsendmsg.php  
 
 # 注册企业微信
 注册企业微信：参考教程，这里不再赘述  
@@ -33,3 +34,6 @@ http://example.com/wechatsendmsg.php
 # 常见问题
 怎么在微信接受消息?  
 在企业微信设置里面取消仅企业微信接受消息选项  
+
+如果兼容原有server酱接口?  
+兼容server酱接口只需要把原有https://sc.ftqq.com/xxx.send改为http://example.com/wechatsendmsg.php  
