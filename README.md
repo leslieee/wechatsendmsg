@@ -27,6 +27,9 @@ header类型: (Content-type: application/x-www-form-urlencoded)
 参数: text 内容: 测试文本  
 http://example.com/wechatsendmsg.php  
 
+# 效果图
+<img src="123.jpg" width="30%">
+
 # 常见问题
 怎么在微信接受消息?  
 在企业微信设置里面取消仅企业微信接受消息选项  
