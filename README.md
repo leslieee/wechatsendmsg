@@ -29,7 +29,7 @@ header类型: (Content-type: application/x-www-form-urlencoded)
 http://example.com/wechatsendmsg.php  
 
 # 效果图
-<img src="123.jpg" width="30%">
+<img src="123.jpg" width="30%"><img src="124.jpg" width="29.30%">
 
 # 常见问题
 怎么在微信接受消息?  
