@@ -37,3 +37,8 @@ http://example.com/wechatsendmsg.php
 
 如何兼容原有server酱接口?  
 兼容server酱接口只需要把原有https://sc.ftqq.com/xxx.send 改为http://example.com/wechatsendmsg.php  
+
+为啥发送的只显示了标题?  
+因为没有跟server酱一样采用模板消息, 而是直接发的消息, 所以实际只有$text(标题), 没有$desp(描述), 好处是可以直接显示特殊符号, 不用再点模板消息进去才能看到全部内容  
+你完全可以把$text和$desp拼接起来
+$text = $text . $desp;
