@@ -20,8 +20,14 @@ if (php_sapi_name() == "cli") {
 } else {
     if (!empty($_GET) && array_key_exists("text", $_GET)) {
         $text = $_GET["text"];
+        if (array_key_exists("desp", $_GET) && !empty($_GET["desp"]) && strcmp($_GET["desp"], $_GET["text"]) != 0) {
+            $text = $text . "\n" . $_GET["desp"];
+        }
     } else if (!empty($_POST) && array_key_exists("text", $_POST)) {
         $text = $_POST["text"];
+        if (array_key_exists("desp", $_POST) && !empty($_POST["desp"]) && strcmp($_POST["desp"], $_POST["text"]) != 0) {
+            $text = $text . "\n" . $_POST["desp"];
+        }
     } else {
         echo "接口调用格式错误\n";
         return;
