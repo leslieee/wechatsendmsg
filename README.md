@@ -35,5 +35,5 @@ http://example.com/wechatsendmsg.php
 怎么在微信接受消息?  
 在企业微信设置里面取消仅企业微信接受消息选项  
 
-如果兼容原有server酱接口?  
+如何兼容原有server酱接口?  
 兼容server酱接口只需要把原有https://sc.ftqq.com/xxx.send 改为http://example.com/wechatsendmsg.php  
