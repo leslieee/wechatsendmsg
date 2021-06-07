@@ -37,3 +37,8 @@ http://example.com/wechatsendmsg.php
 
 如何兼容原有server酱接口?  
 兼容server酱接口只需要把原有https://sc.ftqq.com/xxx.send 改为http://example.com/wechatsendmsg.php  
+
+和Server酱的区别  
+Server酱每天仅可推送 500 条消息(Turbo版仅免费5条)  
+并且在1分钟内不能推送相同消息，而自己搭建的则没有任何限制  
+Server酱只能推送消息给某一个人，企业微信搭建的可以多个人，并能设置更多的权限  
